@@ -87,7 +87,7 @@ static int run_test(char *ipath, char *opath)
 int main(int argc, char **argv)
 {
     if (argc < 3) {
-        fprintf(stderr, "usage: %s [file-to-compress] [output-file]\n",
+        fprintf(stderr, "usage: %s [file-to-decompress] [output-file]\n",
                 argv[0]);
         exit(EXIT_FAILURE);
     }
